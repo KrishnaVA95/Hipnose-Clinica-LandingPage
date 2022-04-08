@@ -4,6 +4,7 @@
 /*---------------------------Globais-------------------------*/
 html{
     font-family: 'Noto Serif', serif;
+    overflow-x: hidden;
 }
 
 *{
@@ -12,14 +13,10 @@ html{
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, p,{
+h1, h2, h3, h4, h5, p{
     margin: 0;
 }
 
-.container{
-    max-width: 1920px;
-    width: 100%;
-}
 
 /*--------------------------Cabeçalho-----------------------*/
 
@@ -73,7 +70,11 @@ nav{
     transition: 0.3s;
 }
 
-
+main{
+    max-width: 2560px;
+    width: 100%;
+    margin: auto;
+}
 
 /*---------------------------------MAIN-BANNER----------------------------*/
 .mainBanner{
@@ -224,7 +225,43 @@ nav{
 }
 
 /*--------------------------footer-template-----------------------*/
+footer{
+    width: 100vw;
+    background: url(/img/global/Footer-02.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
 
+.social-media{
+    display: flex;
+    color: #ffff;
+    font-size: 5vh;
+    align-items: center;
+    flex-direction: row;
+}
+
+.social-media a{
+    margin-right: 50px;
+}
+.social-media a:nth-child(4){
+    margin-right: 0;
+}
+
+.social-media a:hover{
+    transform: scale(1.3);
+}
+
+.info{
+    color: #ffff;
+}
+.info h2{
+    text-align: center;
+}
 
 /*-------------------------Mobile-Menu-999PX---------------------*/
 @media screen and (max-width: 999px) {
