@@ -35,7 +35,7 @@ a:hover{
 
 .logo{
     height: 8vh;
-    padding: 15px;
+    padding: 5px;
 }
 
 nav{
@@ -74,7 +74,154 @@ nav{
 }
 
 
-/*---------------------------------MAIN----------------------------*/
+
+/*---------------------------------MAIN-BANNER----------------------------*/
+.mainBanner{
+    background: url(../img/Banner/Banner-1.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 85vh;
+    background-position: 90% 0%;
+}
+
+#mainTitulo-1{
+    font-size: 45px;
+    padding-top: 35vh;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#mainTitulo-2{
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.mainBanner p{
+    text-align: center;
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+/*---------------------------------button-Whatsapp----------------------------*/
+.bannerButton{
+    text-align: center;
+    padding-top: 10vh ;
+}
+
+.style_button{
+    color: white;
+    font-size: 22px;
+    background: rgb(49, 211, 49);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px; 
+    border: 1px solid rgb(49, 211, 49);
+    box-shadow: 0 0 1em black;
+    letter-spacing: 3px;
+}
+
+.style_button:hover{
+    color: rgb(49, 211, 49);
+    background-color: white;
+}
+
+/*---------------------------------MAIN-Títulos----------------------------*/
+.containerTitulo{
+    background-color: #033a52;
+    padding: 60px;
+    box-shadow: 0 0 1em black;
+}
+
+.containerTitulo h1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.containerTitulo h3{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/*---------------------------------MAIN-section----------------------------*/
+.formcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.conteudoTextual{
+    width: 60%;
+    min-height: 600px;
+}
+
+.conteudoTextual ul{
+    margin: 30px;
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+}
+
+.conteudoVisual{
+    width: 40%;
+    height: 600px;
+    background-color: #bad4df;
+}
+
+.conteudoVisual img{
+    margin-top: 45px;
+    margin-left: 70px;
+}
+
+/*-----------------------MAIN-Certificados---------------------------*/
+
+.certificados img{
+    margin: 40px;
+}
+
+/*-----------------------MAIN-banner-Quotes--------------------------*/
+.bannerQuotes-1{
+    background-image: url(../img/Banner/banner-3.jpg);
+    background-size: cover;
+    background-position: 0 60%;
+    background-attachment: fixed;
+}
+
+.bannerQuotes-1 h1{
+    font-size: 22px;
+    color: white;
+    padding: 300px;
+    padding-right: 50px;
+    padding-left: 50px;
+    /*melhora a responsividade para telas pequenas que não são de celulares*/
+    text-align: center;
+}
+
+.bannerQuotes-2{
+    background-image: url(../img/Banner/banner-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bannerQuotes-2 h1{
+    font-size: 22px;
+    color: white;
+    padding: 300px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
 
 /*--------------------------footer-template-----------------------*/
 
