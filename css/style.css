@@ -227,7 +227,7 @@ main{
 /*--------------------------footer-template-----------------------*/
 footer{
     width: 100vw;
-    background: url(/img/global/Footer-02.jpg) no-repeat;
+    background: url(../img/global/Footer-02.jpg) no-repeat;
     background-size: cover;
     display: flex;
     justify-content: space-between;
