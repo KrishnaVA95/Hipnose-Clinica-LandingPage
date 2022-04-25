@@ -688,6 +688,9 @@ footer{
 }
 
 @media screen and (max-width: 320px){
+    .nav-list li{
+        letter-spacing: 1px;
+    }
     #mainTitulo-1{
         padding-top: 12vh;
         font-size: 20px;
